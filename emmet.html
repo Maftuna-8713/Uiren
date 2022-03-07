@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Сабақтар</title>
+	
+
+	<link rel="stylesheet"  href="sty.css">
+	<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet"><!--htmlcss-->
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.min.css">
+	
+</head>
+<body>
+	<header>
+
+		<div class="header__logo">
+			
+			<img src="https://iconarchive.com/download/i87095/graphicloads/colorful-long-shadow/Html-tags.ico" width="53px" height="50px">UIREN</a>
+		</div>
+	
+		
+
+	<nav>
+		
+
+		<div class="topnav" id="myTopnav">
+			<a href="file:///C:/Users/Asus/Desktop/newpoject/index.html">Басты бет</a>
+			<a href="file:///C:/Users/Asus/Desktop/newpoject/emmet.html#css">CSS</a>
+			<a href="file:///C:/Users/Asus/Desktop/newpoject/emmet.html#js">JavaScript</a>
+			<a href="#" id="menu" class="icon">&#9776;</a></div>
+			
+		
+		
+		
+</nav>
+			
+		
+	</header>
+	
+<ul>
+  <li><a class="active" href="#home">HTML</a></li>
+  <li><a href="#top-slide">Бірінші web парақша</a></li>
+  <li><a href="#tp-slide">Тәгтермен танысу</a></li>
+  <li><a href="#tags">Кесте құру</a></li>
+
+
+  <li><a class="active" href="#home">CSS</a></li>
+  <li><a href="#css">CSS құжатын құру</a></li>
+  <li><a href="#color">CSS қасиеттеріне шолу</a></li>
+  <li><a href="#css_img">Сурет қою</a></li>
+  
+  
+  <li><a class="active" href="#home">JavaScript</a></li>
+  <li><a href="#js">JavaScript құжатын құру</a></li>
+  <li><a href="#js_ai">Айнымалылар</a></li>
+  <li><a href="#js_u">Өрнектер</a></li>
+</ul>
+
+
+
+<main>
+	<section style="margin-left:12%;padding:1px 16px;height:1000px;">
+
+			<section id="top-slide">
+				<div class="top-container">
+				<div><h1>HTML</h1></div>
+				<div><h2>Web парақша құру</h2></div>
+				<div><p><strong><i>HTML("HyperText Markup Language")</i></strong>-гипермәтінді белгілеу тілі.HTML тілін 1991 жылы Женевадағы физикалық зерттеулер институты қызметкері Тим Бернерс-Ли таралған гипермәтіндік жүйе жасау жобасын жүзеге асыру кезінде жасап, оны World Wide Web немесе Жаһандық өрмек деп аталады.</p></div>
+					<div><p>HTML файдарын жасауға арналған көптеген редакторлар бар, соның біреуі <strong>Sublime Text</strong> редакторы.</p></div>
+					<div><p><strong>Бірінші Web парақшаны құруды бастайық:</strong></p></div>
+						<p>1.html папкасын құрамыз</p>
+						<p>2.Папканың ішіне мышканың оң жақ батырмасын басып мәтіндік құжат құрамыз</p>
+						<p>3.Мәтіндік құжатты index.html деп өзгертеміз</p>
+						<p><strong><i>Төменде көрсетілген видеоны қараңыз</i></strong></p>
+						<div class="wrapper">
+					<div class="video">
+					<video controls class="video__item"
+					>
+						<source src="video/1.mp4" type="video/mp4">
+					</video>
+				</div></div></div>
+				</br></br>
+
+				<div id="tp-slide" >
+				<div class="top-container">
+					<div><h1>Тәгтермен танысу</h1></div>
+				<p>HTML құжаты құрамында арнайы белгілеу тәгтері (немеме басқаратын элементтері) бар кәдімгі мәтіндік файл болып табылады.<strong>Тәгтер</strong> Web браузерге (web-парақтарды көрсетуге арналған программа, мысалы, Internet Explorer, Mozilla,Netscape Opera)парақтағы мәтінді, суретті экранға қалай шығару керектігін көрсетеді. Тәг символлар тізбегінен тұрады.Кез келген тәг <strong>"кіші" (<) </strong>символынан басталады да, <strong>"үлкен" (>)</strong> символымен аяқталады.Осындай символ бұрыштық жақшалар деп те аталады.Ашылатын бұрыштық жақшадан соң команда аты болып табылатын ағылшын тіліндегі түйінді сөз-тәг орналасады. Тәгтердің <strong>ашатын тәг</strong> және <strong>жабатын тәг</strong> түрлері болады.Жабу тәгтері қиғаш сызық символымен(/)басталуы тиіс.</p></div>
+				
+				</br>
+				
+				
+					<div><h2>Негізгі тәгтер</h2></div>
+				<div><p>HTML құжатының кез келгені <strong>&lt;HTML&gt;</strong> тәгінен басталып, соған сәйкес <strong>&lt;/HTML&gt;</strong>түрінде жабылу тәгімен аяқталады.Осы екеуәнің ортасында құжаттың тақырыптық бөлігі мен тұлғасы болып келетін  негізгі бөлігі орналасады.</p></div>
+				<div><p>Құжаттың тақырыптық бөлігі <strong>&lt;HEAD&gt; </strong>және <strong>&lt;/HEAD&gt;</strong> тәгтерінің ортасында тұрады да,жалпы құжат туралы мәлімет береді.Әдетте, бұл бөлікте <strong>&lt;TITLE&gt;....&lt;/TITLE&gt;</strong> тәгтерімен шектелетін құжаттың терезе маңдайшасында тұратын ресми атауы орналасады.Көптеген браузерлер оны терезе тақырыбында тұратын файл фты есебінде пайдаланылады. </p></div>
+				<div><p>Жазылатын мәтін құжаттың негізгі тұлғасы деп аталатын <strong>&lt;BODY&gt;....&lt;/BODY&gt;</strong>тәгтерінің ортасында жазылады.Бұл қос белгі HTML-құжаттың негізгі мазмұндық бөлігінің басын және соңын білдіреді.</p></div>
+				<div><p>HTML тілінің комментарийлерін тәг жазбай-ақ, арнайы символдардан  кейін жалғастырып жазуға болады.Түсініктеме мәтін соңына  символдары жазылуы тиіс.<strong><i>Төменде көрсетілген видеоны қараңыз.</i></strong></p></div>
+			
+			<div class="wrapper">
+					<div class="video">
+					<video controls class="video__item"
+					>
+						<source src="video/11.mp4" type="video/mp4">
+					</video>
+				</div></div></div>
+				</div></div></br>
+</div>
+                  <div id="tags" >
+				<div class="tag-container">
+					<div><h1>Кесте құру</h1></div>
+				<p>Кесте тұрғызу <strong>&lt;Table&gt;</strong> және <strong>&lt;/Table&gt;</strong> тәгтері көмегмен орындалады, оның әрбір жолын анықтау -<strong>&lt;TR&gt;</strong> және <strong>&lt;/TR&gt;</strong>тәгтері арқылы, ал сол жолдағы бағаналар - <strong>&lt;TD&gt;</strong> және <strong>&lt;/TD&gt;</strong> немесе <strong>&lt;TH&gt;</strong> және <strong>&lt;/TH&gt;</strong> тәгтері арқылы анықталады.<strong>&lt;TD&gt;</strong> және <strong>&lt;TH&gt;</strong> тәгтерінің жұмысы ұқсас, бірақ <strong>&lt;TH&gt;</strong> тәгтермен қоршалған мәтін қарайтылған бағана тақырыптары болып табылады да, <strong>&lt;TD&gt;</strong> тәгтерімен одан кейінгі қарапайым бағаналар жазылады. Кесте тақырыбы <strong>&lt;Caption&gt;</strong> және <strong>&lt;/Caption&gt;</strong> тәгтерімен қоршалып жазылады.<strong><i>Төменде көрсетілген видеоны қараңыз.</i></strong></p></div>
+			<div class="wrapper">
+					<div class="video">
+					<video controls class="video__item">
+						<source src="video/2.mp4" type="video/mp4">
+					</video>
+				</div></div></div></br>
+
+				  <div id="css" >
+				<div class="css-container">
+					<div><h1>CSS құжатын құру</h1></div>
+				<p><strong>CSS - Cascading Style Sheets(Стильдердің сатылы кестелері)</strong>-гипермәтіндік мәліметтер мазмұнын олардың экрандағы бейнелену формасынан бөліп орындауға мүмкіндік беретін құрал болып табылады.CSS стильді қосудың <strong>2 тәсілі</strong> бар.<strong>Бірінші</strong> тәсіл:<strong>&lt;BODY&gt;....&lt;/BODY&gt;</strong>тәгтерінің ортасында <strong>&lt;STYLE&gt;</strong> және <strong>&lt;/STYLE&gt;</strong> тәгінің ішіне жазылады.Төмендегі видеода толық ақпарат берілген.<strong>Екінші</strong> тәсіл: жаңа css құжатын құру және оны сілтеме арқылы HTML құжатқа қосу.Қасиетін  өзгертетін тәгтер css құжатының ішіне жазылады.Төмендегі видеода толық ақпарат берілген.<strong><i>Төменде көрсетілген видеоны қараңыз.</i></strong></p></div>
+
+			<div class="wrapper">
+					<div class="video">
+					<video controls class="video__item"
+					>
+						<source src="video/css.mp4" type="video/mp4">
+					</video>
+				</div></div></div></br>
+
+				  <div id="color" >
+				<div class="color-container">
+					<div><h1>CSS қасиеттеріне шолу</h1></div>
+				<p>Стильдегі оның қасиеттерін мынадай топтарға бөліп беру қалыптасқан:қаріп(шрифт),түстер, мәтін, өрістер мен жақтаулар (поля и рамки), сыртқы түрлері.Шрифтер үшін: <strong>"font-family"</strong> - қаріп түрі.Бұл стильдік қасиет шрифтің  гарнитурасы атын немесе оның топ атауын көрсетеді. <strong>"font-size"</strong>-қасиеті шрифтің абсолюттік немесе салыстырмалы мөлшерін береді.Салыстырмалы түрде бергенде, пайыздық өлшем қолданылады(ағымдық шрифт негізгі) немесе мынадай түйінді сөздер қою керек:larger-ірілеу,smaller-шағындау.Абсолюттік мөлшерде келесі өлшем бірліктерінің бірін көрсету керек:in, cm, mm, px, pt, pc.<strong>Түс.</strong> Стильдік қасиеттер түстерді тағайындаудың<strong> үш</strong>  түрлі тәсілін береді: <strong>түйінді сөз(white)</strong> , <strong>он алтылық RGB-код(#eee5d8)</strong> , <strong>ондық RGB-код(rgb(255,64,0))</strong>.<strong>Color</strong>-элемент түсін анықтайды.<strong>background-color</strong>-элемент шығарылатын маңайдағы фон түсін анықтайды.<strong>Мәтін үшін.</strong> <strong>text-align</strong>-мәтінді көлденең туралау тәсілін көрсетеді.Келесі мәндер қолданылады:left-сол жақ шетке туралау, right-оң жақ шетке туралау, center-ортаға туралау, justify-екі шетінде туралау.<strong><i>Төменде көрсетілген видеоны қараңыз.</i></strong></p></div>
+			<div class="wrapper">
+					<div class="video">
+					<video controls class="video__item"
+					>
+						<source src="video/css2.mp4" type="video/mp4">
+					</video>
+				</div></div></div></br>
+
+				  <div id="css_img" >
+				<div class="css_img-container">
+					<div><h1>CSS Сурет қою</h1></div>
+				<p>CSS құжатында сурет қою үшін <strong>background-image</strong> қасиетін қолданамыз.Суреттің енін өзгерту үшін <strong>width</strong> қасиетін, ұзындығын өзгерту үшін <strong>height</strong> қасиеттерін қолданамыз.Суреттін орналасуын беру үшін <strong>align</strong> қасиетін қолданамыз.Төмендегі видеода толық ақпарат берілген.<strong><i>Төменде көрсетілген видеоны қараңыз.</i></strong></p></div>
+			<div class="wrapper">
+					<div class="video">
+					<video controls class="video__item"
+					>
+						<source src="video/css3.mp4" type="video/mp4">
+					</video>
+				</div></div></div></br>
+
+				  <div id="js" >
+				<div class="js-container">
+					<div><h1>JavaScript құжатын құру</h1></div>
+				<p><strong>JavaScript</strong> программалау тілін <strong>Netscape пен Sun Microsystems</strong> фирмасы бірлесіп ұсынған, ол интерактивті HTML-құжаттарды құруға арналған.<strong>JavaScript</strong>тілінде жазылған программалар операторлар тізбегінен тұрады.JavaScript тілінде бас әріптер мен кіші әріптер әр түрлі символ болып саналады.<strong>JavaScript</strong>пен жұмыс істеудің екі түрлі тәсілі бар.Біріншісі-<strong>&lt;SCRIPT&gt;</strong> және <strong>&lt;/SCRIPT&gt;</strong> тәгтері арқылы HTML құжатына тікелей жазылады.Екінші тәсіл-<strong>js</strong> құжатын құрып, соның ішіне жазамыз.Ол үшін HTML құжатына сілтеме арқылы байланыстырамыз.<strong><i>Төменде көрсетілген видеоны қараңыз.</i></strong></p></div>
+			<div class="wrapper">
+					<div class="video">
+					<video controls class="video__item"
+					>
+						<source src="video/js.mp4" type="video/mp4">
+					</video>
+				</div></div></div></br>
+
+				 <div id="js_ai" >
+				<div class="js_ai-container">
+					<div><h1>Айнымалылар</h1></div>
+				<p><strong>Айнымалылар</strong> ақпараттарды сақтау үшін қолданылады. Айнымалылар сценарийлерде иденфикаторлардың көмегі арқылы көрсетіледі. <strong>Иденфикатор</strong> латын әріптерінен, цифрлардан, астын сызу белгісінен басталуы керек, мысалы, <strong>test_1</strong>.Айнымалының типі сценарийде сақталған ақпараттың типіне байланысты болып, сол мәліметтің типі өзгерсе, айнымалының типі де өзгереді.Айнымалы <strong>var</strong> операторы арқылы анықталуы тиіс, мысалы:<strong> var test1</strong>.Мұнда <strong>test1</strong> айнымалысының типі әлі анықталмаған, ол айнымалыға белгілі бір мән меншіктеген кезде ғана айқындалады.var операторын айнымалыны инициализациялағанда да қолдануға болады, мысалы:<strong>var test2=276</strong>.Мұнда <strong>test2</strong> айнымалысының типі анықталды және ол <strong>276</strong> мәніне тең болды.<strong><i>Төменде көрсетілген видеоны қараңыз.</i></strong></p></div>
+			<div class="wrapper">
+					<div class="video">
+					<video controls class="video__item"
+					>
+						<source src="video/js2.mp4" type="video/mp4">
+					</video>
+				</div></div></div></br>
+
+				 <div id="js_u" >
+				<div class="js_u-container">
+					<div><h1>Өрнектер</h1></div>
+				<p><strong>Өрнектер</strong> операциялар (амалдар) <strong>таңбаларымен біріктірілген литералдан, айнымалылардан және жақшалардан</strong> тұрады.Өрнектерді есептеу нәтіжесінде сан(бүтін  не нақты), сөз тіркесі немесе логикалық типте болатын <strong>бір</strong> ғана мән шығады.Өрнектерде қолданылатын айнымалылар оған дейін <strong>инициалданған</strong> болу керек.Өрнектерді есептеу кезінде анықталмаған немесе инициалданбаған айнымалылар кездессе қате шығады.</p>
+				<p><strong>Өрнек</strong> <i>операндтардан(мәндер мен айнымалылардан)</i> және <i>операциялар таңбаларынан(+, -, *,/)</i>тұрады.Мысалы, <strong>a*b</strong> формуласында a және b операндтар, * таңбасы-<strong>көбейту операциясы</strong>.<strong><i>Төменде көрсетілген видеоны қараңыз.</i></strong></p></div>
+			<div class="wrapper">
+					<div class="video">
+					<video controls class="video__item"
+					>
+						<source src="video/js3.mp4" type="video/mp4">
+					</video>
+				</div></div></div></br>
+
+
+
+
+
+		
+				</section>
+			</section>
+			
+			</main>
+
+  
+
+<script src="script.js"></script>
+</body>
+</html>
